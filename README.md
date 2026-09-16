@@ -52,7 +52,7 @@ The core methodology: every feature is specified as `requirements.md` (EARS) →
 | [buildpad-spec-init](buildpad-spec-init) | Initialize a new specification structure |
 | [buildpad-spec-requirements](buildpad-spec-requirements) | Generate EARS-format requirements (review gate) |
 | [buildpad-spec-design](buildpad-spec-design) | Generate technical design from requirements (review gate) |
-| [buildpad-spec-tasks](buildpad-spec-tasks) | Generate implementation tasks with dependencies (review gate) |
+| [buildpad-spec-tasks](buildpad-spec-tasks) | Generate implementation tasks with dependencies |
 | [buildpad-impl](buildpad-impl) | Implement approved tasks with TDD and per-task review |
 | [buildpad-spec-quick](buildpad-spec-quick) | Fast path for a single small spec |
 | [buildpad-spec-batch](buildpad-spec-batch) | Create specs for a whole roadmap in parallel |
@@ -124,6 +124,7 @@ The core methodology: every feature is specified as `requirements.md` (EARS) →
 | [code-simplification](code-simplification) | Simplify working code while preserving behavior |
 | [performance-optimization](performance-optimization) | Application performance and Core Web Vitals |
 | [security-and-hardening](security-and-hardening) | Harden code handling input, auth, storage, integrations |
+| [buildpad-hol-guard](buildpad-hol-guard) | Run supported local AI coding-agent harnesses through HOL Guard before high-impact Buildpad workflows |
 | [generate-docs](generate-docs) | Generate API references, component docs, schemas, changelogs |
 
 ## License
