@@ -52,7 +52,7 @@ The core methodology: every feature is specified as `requirements.md` (EARS) →
 | [buildpad-spec-init](buildpad-spec-init) | Initialize a new specification structure |
 | [buildpad-spec-requirements](buildpad-spec-requirements) | Generate EARS-format requirements (review gate) |
 | [buildpad-spec-design](buildpad-spec-design) | Generate technical design from requirements (review gate) |
-| [buildpad-spec-tasks](buildpad-spec-tasks) | Generate implementation tasks with dependencies |
+| [buildpad-spec-tasks](buildpad-spec-tasks) | Generate implementation tasks with dependencies (review gate) |
 | [buildpad-impl](buildpad-impl) | Implement approved tasks with TDD and per-task review |
 | [buildpad-spec-quick](buildpad-spec-quick) | Fast path for a single small spec |
 | [buildpad-spec-batch](buildpad-spec-batch) | Create specs for a whole roadmap in parallel |
